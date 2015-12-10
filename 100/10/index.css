@@ -1,0 +1,11 @@
+
+	.box{
+		width: 20%;
+		height: 100px;
+		background-color: cyan;
+		transition:all 3s;
+	}
+	.box:hover{
+		transform:rotate(840deg);/*transform可以实现旋转、缩放、移动、倾斜属性
+		rotate是旋转属性，deg是旋转单位*/
+	}
