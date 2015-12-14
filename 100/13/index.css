@@ -1,0 +1,2 @@
+.box{ width: 400px; height: 400px;  background-color:red; padding: 10px}
+.box:hover{width: 400px; height: 400px;  background-color:red; padding: 10px; 	box-sizing:border-box;}
