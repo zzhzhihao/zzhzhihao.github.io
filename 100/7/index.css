@@ -6,5 +6,5 @@
 		transition:all 3s;
 	}
 	.box:hover{
-		transform:rotate(840deg);/*transform可以实现旋转、缩放、移动、倾斜属性
+		transform: rotate(840deg);/*transform可以实现旋转、缩放、移动、倾斜属性
 		rotate是旋转属性
