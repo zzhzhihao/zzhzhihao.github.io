@@ -1,0 +1,21 @@
+.clearfix:before,
+	.clearfix:after {
+    content: " ";
+    display:table;
+    clear:both;
+}
+.box{ border:solid 1px red; }
+.left { width: 200px; 
+	height: 100px; 
+	background-color:blue;}
+.right {
+ width:200px;
+ height: 100px; 
+ background-color:green;}
+.left,.right{ float: left;
+
+
+}/*www.haoduoshipin.com*/
+.f{background-color:red;}
+.z{ height:50px; background-color:blue; width:40%; margin-top: 50px;  }
+.go{ height: 50px; background-color:#000; width:40%;  }
