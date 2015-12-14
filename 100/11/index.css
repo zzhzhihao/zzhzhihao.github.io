@@ -3,7 +3,7 @@
     content: " ";
     display:table;
     clear:both;
-}
+}/*父及高度丢失clearfix*/
 .box{ border:solid 1px red; }
 .left { width: 200px; 
 	height: 100px; 
