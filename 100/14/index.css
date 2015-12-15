@@ -1,0 +1,41 @@
+.dark-primary-color    { background: #0288D1; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFEB3B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+
+html{-webkit-font-size :62.5%;
+  font-size: 63%;
+}
+*{ margin: 0px; 
+  padding: 0px;}
+body{ }
+.first{ height: 50px;}
+.second{ height: 300px; 
+  text-align:center; 
+   box-sizeing:border-box;
+   padding-top: 5%;
+   }
+h1{ font-size: 2em}
+h1,h2{ font-weight: normal;}
+h2{ opacity: 0.5; font-size:1em; }
+
+h2{font-weight:normal; }
+
+.third{ width:70px;
+ height:70px;
+ border-radius:50%;
+  position: absolute;
+top: 50%;
+left: 70%;
+transition:all 2s ease;
+}
+.third:hover{ width: 100px;  height: 100px;  border-radius: 50%;}
+.zzh{ margin: 20px auto;
+ 	text-align: center;}
+ .zzh p{
+ 	opacity: .8;
+ }
