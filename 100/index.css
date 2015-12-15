@@ -24,7 +24,7 @@ body{   padding-left: 25%;cursor: auto;
 font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;}
 
 
-li{ list-style:none;}
+li{ list-style:none; margin-top: 2em}
 
 .zzh a{
 	text-decoration: none;
