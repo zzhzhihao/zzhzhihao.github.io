@@ -1,37 +1,69 @@
 .first{
- width: 200px;
+ width: 100%;
  height: 50px;
  background-color: red;
 
 }
-.zzh{ width: 200px; 
+.zzh{ width: 100%; 
 height:50px; 
 background-color:green; 
  margin-top: 10px;}
 
-.xs{ width: 200px; height: 50px; background-color: lawngreen; margin-top: 10px;}
+.xs{ width: 100%; 
+height: 50px; 
+background-color: lawngreen;
+margin-top: 10px;}
 
-@media ( min-width: 800px){
-	.first{ width: 30%;
+
+
+
+
+
+
+@media ( min-width: 500px){
+	
+.first{ width: 50%;
  height: 50px;
  background-color: blue;
   float: left;
 }
 
-.zzh{ width: 30%;
+.zzh{ width: 50%;
  height: 50px;
  background-color:red;
  float: left;
  margin: 0 0;
 }
-.xs{ width: 40%;
- height: 50px;
- background-color:purple;
- float: left;
- margin: 0 0;
+.xs{ width: 100%;
+	   	height: 50px;
+	  	background-color: lightpink;
+	  	margin-top: 10px;
+	  	clear: both;
+
+
 }
 
+@media ( min-width: 800px){
+	.first{ width: 33.333333%;
+	   	height: 50px;
+	  	background-color: red;
+	  	float: left;
+}
 
+.zzh{ width: 33.333333%;
+	   	height: 50px;
+	  	background-color: cyan;
+	  	float: left;
+	  	margin: 0 0;
+}
+
+.xs{ width: 33.333333%;
+	   	height: 50px;
+	  	background-color: lightpink;
+	  	float: left;
+		clear: none;
+		margin: 0 0;
+}
 
 
 }/*如果宽度大于800px；时候*/
