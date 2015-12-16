@@ -2,17 +2,23 @@
  width: 100%;
  height: 50px;
  background-color: red;
-
+transition:all 1s;
 }
 .zzh{ width: 100%; 
 height:50px; 
 background-color:green; 
- margin-top: 10px;}
+ margin-top: 10px;
+transition:all 1s;
+
+ }
 
 .xs{ width: 100%; 
 height: 50px; 
 background-color: lawngreen;
-margin-top: 10px;}
+margin-top: 10px;
+
+transition:all 1s;
+}
 
 
 
@@ -39,7 +45,6 @@ margin-top: 10px;}
 	  	background-color: lightpink;
 	  	margin-top: 10px;
 	  	clear: both;
-
 
 }
 
