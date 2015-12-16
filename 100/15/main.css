@@ -1,0 +1,40 @@
+.first{
+ width: 200px;
+ height: 50px;
+ background-color: red;
+
+}
+.zzh{ width: 200px; 
+height:50px; 
+background-color:green; 
+ margin-top: 10px;}
+
+.xs{ width: 200px; height: 50px; background-color: lawngreen; margin-top: 10px;}
+
+@media ( min-width: 800px){
+	.first{ width: 30%;
+ height: 50px;
+ background-color: blue;
+  float: left;
+}
+
+.zzh{ width: 30%;
+ height: 50px;
+ background-color:red;
+ float: left;
+ margin: 0 0;
+}
+.xs{ width: 40%;
+ height: 50px;
+ background-color:purple;
+ float: left;
+ margin: 0 0;
+}
+
+
+
+
+}/*如果宽度大于800px；时候*/
+
+
+
