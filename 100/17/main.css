@@ -1,0 +1,9 @@
+.blue{ width: 300px; 
+	height: 300px; 
+	border-radius: 50%; 
+	background-color:#B03060 ;
+text-align: center;
+margin: 0 auto;
+
+		 }
+		 .blue.red{ background-color: #CD3700}
