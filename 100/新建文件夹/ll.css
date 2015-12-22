@@ -1,0 +1,16 @@
+*{margin: 0 ; padding: 0}
+.box{ width:1px; 
+height: 100em;
+ background-color:red;
+transtion:all 2s;
+  }
+body{overflow:hidden}
+.box.o{
+	width: 100px;
+height: 100em;
+
+	transform: scale(2,2);
+	transform-origin:0% 0%;
+
+
+	}
