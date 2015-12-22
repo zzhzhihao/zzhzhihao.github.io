@@ -1,0 +1,17 @@
+
+.dox{
+	width: 300px;
+	
+	background-color: #22bbdd;
+
+	position: fixed;
+	bottom: 0;
+	top:0;
+	transition:all 1s;
+	transform:translateX(0%);
+}
+
+.dox.smalle{
+	background-color: #66eeee;
+	transform:translateX(-100%);
+}
