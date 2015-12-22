@@ -1,0 +1,14 @@
+
+.dox{
+	width: 300px;
+	
+	background-color: #22bbdd;
+ height: 300px;
+}
+
+.dox.smalle{
+	background-color: #66eeee;
+	transform: scale(2,2);transform-origin:0% 0%;
+
+}
+	
