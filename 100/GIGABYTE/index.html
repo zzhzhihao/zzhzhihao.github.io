@@ -16,32 +16,40 @@
 <div class="nav clearfix">
 	
 <a href="index.html"><img  src="images/logo_CN.png"/></a>
-
-
-
-
 	<i class="icon-shopping-cart"></i>
-
-
 
 	<i class="icon-align-justify"></i>
 
+	
 
-
-
-
-
-
-
+<ul class="saidenav box clearfix">
+				<li><a href="#">电脑／显卡</a></li>
+				<li><a href="#">电脑/主板</a></li>
+				<li><a href="#">迷你ＰｃＢＲＩＸ</a></li>
+				<li><a href="#">产品咨询</a></li>
+				<li><a href="#"></a></li>
+			</ul>
 
 </div>
 
 
+	<script type="text/javascript">
 
 
 
-
+	 
+	  $('.icon-align-justify').click(function(){
+	  	console.log("$this.html");
+	  	$('.saidenav').removeClass('box');
+	  });
+	    $('.saidenav').click(function(){
+	  	console.log("$this.html");
+	  	$(this).addClass('box');
+	  })
 	
+
+
+	</script>
 </body>
 </html>
 

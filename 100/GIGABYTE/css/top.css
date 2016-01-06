@@ -48,3 +48,26 @@ clear: both; /*http://haoduoshipin.com/v/166*/
     color: #595c62;
 
  }
+.saidenav.box {
+    background-color: #fff;
+    transition: all 1s;
+    transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+}
+.saidenav {
+    position: fixed;
+   text-align: center;
+	background-color: #fff;
+	padding-top: 10em;
+	height: 10em;
+	line-height: 1.5em;
+    transition: all 1s;
+    transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
