@@ -94,7 +94,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-align-left:before{content:"\f036";}
 .icon-align-center:before{content:"\f037";}
 .icon-align-right:before{content:"\f038";}
-.icon-align-justify:before{content:"\f039";}
+.icon-align-justify:before{content:"\f039"; font-size:3.3em; }
 .icon-list:before{content:"\f03a";}
 .icon-indent-left:before{content:"\f03b";}
 .icon-indent-right:before{content:"\f03c";}
@@ -156,8 +156,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-chevron-down:before{content:"\f078";}
 .icon-retweet:before{content:"\f079";}
 .icon-shopping-cart:before{content:"\f07a"; color: #595c62;
- width: 3.8em; height: 3.8em;
- }
+  font-size: 3.3em }
 .icon-folder-close:before{content:"\f07b";}
 .icon-folder-open:before{content:"\f07c";}
 .icon-resize-vertical:before{content:"\f07d";}
