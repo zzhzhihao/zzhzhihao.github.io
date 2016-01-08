@@ -70,7 +70,7 @@ clear: both; /*http://haoduoshipin.com/v/166*/
     z-index:222; 
     list-style:none; 
 right: 75px;
-    bottom:0px;
+    bottom:5px;
 }
 .num li{ 
     float:left; 
@@ -82,4 +82,28 @@ right: 75px;
     margin-right:5px; 
     background:#aeabab; 
     color:#000;
+
     }
+    .main{
+
+  
+    width: 100%;
+    }
+    .main .l{
+    width:25.5em;
+    height: 3em;
+     background:#1d1c1c;
+margin: 0.83333em 0.4166666666666667em;
+    }
+    .main .l p{
+    font-size:1.5em; 
+    color: #ffffff; 
+    padding: 8px 10px;
+     display: inline-block;
+    }
+     .main .l a{ float: right; 
+    font-size:1.2em;
+    color: #ffffff; 
+    padding: 15px 5px 8px ;
+
+     }
