@@ -3,3 +3,49 @@
     width: 100%;
 	border-bottom:1px #CCCCCC solid 
 }
+.section-title ,h2{    font-size: 1.8rem;
+    padding: 1rem 0;
+    line-height: 1.6;
+    color: #787878;
+    padding-left: 1.6rem;}
+	.main2{ width:100%}
+.accessory-list  li { 
+    position: relative;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+	border:solid
+	#CCC
+    1px;
+    padding-bottom: 2rem;
+	}
+
+	.accessory-list{padding-left:0px;
+	
+      }
+	.accessory-section .accessory-list {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+li img {
+    width: 58%;
+    margin: 0 auto 1rem;
+}
+li{list-style-type:none;}
+ .item-price {
+    margin-top: 10px;
+    color: #21c1f1;
+}
+
+.accessory-list  li { 
+      position: relative;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+	
+	}
