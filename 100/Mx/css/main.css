@@ -49,3 +49,91 @@ li{list-style-type:none;}
     padding-bottom: 2rem;
 	
 	}
+	.nav-section {
+    background-color: #fff;
+    border-bottom: #ececec 1px solid;
+}
+.nav-section .subNav {
+    padding: 2rem 0;
+}
+.nav-section .flex-item {
+    width: 50%;
+    float: left;
+}
+.nav-section .flex-item .nav-item {
+    display: block;
+    font-size: 1.5rem;
+    padding: 6% 20%;
+    color: #555;
+}
+
+.nav-section .subNav {
+    padding: 2rem 0;
+}
+.row {
+    zoom: 1;
+}
+.nav-section .nav-icon, .nav-section .nav-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-section .nav-icon {
+    width: 20%;
+    margin-right: 5%;
+}
+	
+	
+	.footer {
+    color: #aaa;
+  
+    padding: 0 0 5%;
+    background-color: #fff;
+	margin-bottom:1em;
+	  
+}
+	
+	
+	
+	.footmain h1 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+	
+	.footter{    width:100%;
+    margin: 20px auto 0;}
+	
+	
+	
+	.footter .share-item{
+    float: left;
+    width: 25%;
+    padding: 0 4%;}
+	
+	
+.footter .share-item	   { position: relative;
+
+}
+	  
+.footter .share-item .pop {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    margin-left: -88px;
+    background-size: 180px 80px;
+    background-image: url(http://m2.res.meizu.com/static/cn/index/images/pop_48a7138.png);
+    top: -80px;
+    left: 50%;}
+	
+.footter .social-section .pop h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1.4rem;
+}
+.foottrer .pop p {
+    font-size: 1.6rem;
+    color: #00c4f9;
+    margin-top: .6rem;
+}
+#weixin:hover{display: block}
