@@ -1,3 +1,21 @@
+*{ margin:0; padding:0; font-family:Microsoft YaHei;}
+.clearfix:before,
+.clearfix:after{
+content: " ";
+display: table;
+clear: both; /*http://haoduoshipin.com/v/166*/
+}
+
+li{ list-style:none
+ }
+body{
+	font-size: 62.5%;
+	font-family:"微软雅黑";
+	
+}
+
+
+
 .section img {
     display: block;
     width: 100%;
@@ -137,3 +155,34 @@ li{list-style-type:none;}
     margin-top: .6rem;
 }
 #weixin:hover{display: block}
+
+
+
+
+
+@media ( min-width:768px){
+	
+.section { display: none
+ 
+}
+.main2{display: none}
+
+
+.footer{ display:none}
+
+
+
+
+
+}
+@media (max-width:768px){
+	#sj{ display:none}	
+.pro {display: none; }
+.jingxuan{ display:none}
+.peijian { display:none}	
+#bottom{ display:none}	
+#bottom2{ display:none}	
+
+}
+
+
