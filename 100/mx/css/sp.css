@@ -76,7 +76,7 @@ padding-left:0.7em;
 @media only screen and (min-width:375px){
 	html{font-size: 20px;}
 }
-body,html{width: 100%;overflow: hidden;}
+body,html{width: 100%;/*overflow: hidden;*/}
 .pinpai{width: 97%;margin: 10px auto 0;font-size: 0.75rem;}
 .xs_zy{background: #e73523;font-size: 0.75rem;color: #fff;padding: 0px 4px;border-radius: 2px;margin-left: 1.5%;}
 .cansu{font-size: 0.7rem;color: #e73523;width: 97%;margin: 5px auto 0;}

@@ -102,7 +102,7 @@ button,input,select,textarea{font-size:100%;font-family:tahoma;margin: 0;outline
 .top_list span{padding: 0 11%;line-height: 45px;display: inline-block;height: 44px;}
 .top_list span a{color: #000;}
 .bind{border-bottom: 1px solid #010101;}
-.cen_nav{height: 45px;border-bottom: 1px solid #e0e0e0;width: 100%;}
+.cen_nav{height: 45px;border-bottom: 1px solid #e0e0e0;width: 100%;position: absolute;top: 0;left: 0;}
 .cen_list{font-size: 0.8rem;margin: 0 auto;height: 45px;}
 .cen_list span{display: inline-block;height: 45px;line-height: 45px;width: 33.3%;float: left;text-align: center;}
 .cen_list span a{color: #989898;}
