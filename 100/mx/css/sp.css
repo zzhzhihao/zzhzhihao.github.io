@@ -1,4 +1,4 @@
-*{ margin:0; padding:0; }
+@media( max-width:768px){*{ margin:0; padding:0; }
 .clearfix:before,
 .clearfix:after{
 content: " ";
@@ -111,9 +111,26 @@ body,html{width: 100%;/*overflow: hidden;*/}
 .suliang{display: inline-block;border: 1px solid #e1e1e1;outline: none;text-align: center;width: 20%;padding: 2px 3%;font-size: 1rem;}
 .xz_sl{margin: 11px 3.5% 0 0;}
 .sl_ys_box{padding-bottom: 50px;}
-
-
-
-
-
 .tab{ width:100%} 
+
+}
+
+@media (max-width:768px){
+	
+	
+	.navbar-header{ display:none};
+
+
+}
+@media (max-width:768px){
+	.navbar-default{ display:none};
+
+
+}
+
+
+
+
+
+
+

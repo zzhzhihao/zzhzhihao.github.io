@@ -29,9 +29,10 @@ body{
 	
 	 }
 	.pro{ border:solid 1px #CCCCCC;
-	width:100%;
+	width:1366px;
 		height:28.4em;
-		margin-bottom:1em
+		margin-bottom:1em;
+
 		}
 	 
 .note3{ float: left; height:28.166666666em;}
@@ -69,7 +70,7 @@ body{
  width:19%;
  text-align:center;
  margin-top:2em;
- 
+ height:28.4em;
  margin-bottom:1em}
 
 
