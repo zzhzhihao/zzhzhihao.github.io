@@ -5,13 +5,11 @@ body{ background:#FFFFFF; color:#333333; font-family:"宋体",Arial,Lucida,Verda
 a:link, a:visited{ color:#333333; text-decoration:none; }
 
 a:active{ color:#990000; }
-ol, ul{ list-style: none outside none;}
 .m { margin-bottom: 10px; }
 .m, .mt, .mc, .mb{ overflow: hidden; }
 
 /* Clear Fix */ 
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} 
-.clearfix{display:inline-block;} 
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} .clearfix{display:inline-block;} 
 /* Hide from IE Mac */ 
 .clearfix{display:block;} 
 /* End hide from IE Mac */ 
@@ -30,7 +28,8 @@ margin:1em
 	height:28px;line-height:28px;padding:0 10px 8px; repeat-x 0 -552px;
 margin:50px;
 }
-.tab { border-bottom:solid 1px #000000}
+.tab { border-bottom:solid 1px #000000; 
+margin-bottom:0.5em}
 .right-extra .tab{border-bottom:2px solid #BE0000;margin-bottom:10px;}
 .right-extra .tab li{position:relative;height:24px;padding:3px 12px 0;background:url(../images/icon_clubs.gif) #ccc no-repeat right -150px;overflow:hidden;margin-right:3px;line-height:24px;font-size:14px;font-weight:bold;color:#c30;}
 .right-extra .tab span{position:absolute;left:0;top:0;z-index:1;width:10px;height:27px;background:url(../images/icon_clubs.gif) no-repeat 0 -150px;}
@@ -43,9 +42,10 @@ margin:50px;
 .right-extra .total strong{color:#FF7403;}
 .right-extra .total a:link,.right-extra .total a:visited{color:#005aa0;}
 .right-extra .join a:link,.right-extra .join a:visited{color:#FF7604;}
-.right-extra .norecode{padding:0 10px 10px;}
+.right-extra .norecode{ padding:0 0.5em 0em 0.5em}
 .right-extra .iloading{margin-bottom:10px;}
 /*评论列表*/
+
 #comment .item{border:1px solid #FFFFFF;padding:8px 15px;}
 #comment .odd{background: none repeat scroll 0 0 #F4F9FF;border: 1px solid #EDF0F1;border-radius:10px 10px 10px 10px;}
 #comment .user{color:#999999;text-align: right;}
@@ -127,3 +127,4 @@ display: inline-block;
 	width:200px;
 	height:400px;
 }
+.tabcon { text-align:center}
