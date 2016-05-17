@@ -1077,6 +1077,17 @@
 
     <script src="js/slide_right.js"></script>
     <script src="js/swiper.min.js"></script>
+     <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+                   direction: 'horizontal',    //横竖屏，默认横屏(horizontal)
+                        loop: true,         //是否循环，默认false
+                       speed: 300,           //滑动速度，默认300
+                    autoplay:2000,           //是否自动播放，值为时间，不设置则不自动播放
+autoplayDisableOnInteraction:false,           //用户操作后自动播放停止，默认为true
+           mousewheelcontrol:true,
+                 pagination : '.swiper-pagination'   
+               })
+    </script>
      <script>
    
 		var num=0,htop;
