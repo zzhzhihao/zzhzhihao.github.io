@@ -336,11 +336,11 @@ margin: 0.8em;
 
 
 }
-.left{ margin:0.9em 0 0.5em 0.8em;width:18px; float:left; }
-.left img{ height:20px; width:18px;
+.left{ margin:0.9em 0 0.5em 1em;width:18px; float:left; }
+.left img{ height:21px; width:21px;
  display:inline-block}
 
 .logo{ width:115px; margin: 0 auto; padding-top:1em }
-.right img{ height:20px; width:20px;}
-.right { position: absolute; top:0.9em ; right:1em}
-.logo{ padding-bottom:1em}
+.right img{ height:21px; width:21px;}
+.right { position: absolute; top:0.9em ; right:1.5em}
+.logo{ padding-bottom:1.5em}
