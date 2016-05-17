@@ -29,9 +29,9 @@ padding-left:  4.69%;
 padding-top: 0.8em }
 .icon-angle-left{ font-size:3em;
  color: #0cbbef;}
-.lo{ float: left;
+.lo{ 
     left: 50%;
-    margin-left: -4.791666666666667em;
+   
     position: absolute;
     top:0.8em;
     width: 13.417em;
