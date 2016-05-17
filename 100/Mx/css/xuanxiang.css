@@ -31,7 +31,7 @@
 .sl_price{color: #FF3300;font-weight: 800;font-size: 0.9rem;margin-bottom: 15px;}
 .sl_bh{color: #ababab;}
 .sl_ys{width:94%;font-size: 0.75rem;color: #a0a0a0; margin:0.8em}
-.sl_ys a{ text-align:center; line-height:30px}
+.sl_ys a{ text-align:center; line-height:35px}
 .sl_ys:after{content: "";display: block;clear: both;}
 .mark{border: 1px solid #e1e1e1;display: inline-block;border-radius: 5px; width:85px; height:40px; margin:0.5em;
 font-size:1.533em;
