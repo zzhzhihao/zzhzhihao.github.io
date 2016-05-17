@@ -282,6 +282,7 @@ margin: 0.8em;
 	
 	
 	}
+	
 
  .site-topbar a:hover{
     
@@ -335,4 +336,10 @@ margin: 0.8em;
 
 
 }
+.left{ margin:0.9em 0 0.5em 0.8em;width:18px; float:left; }
+.left img{ height:28px; width:18px;
+ display:inline-block}
 
+.logo{ width:115px; margin: 0 auto; padding-top:1em }
+.right img{ height:28px; width:20px;}
+.right { position: absolute; top:0.9em ; right:1em}
