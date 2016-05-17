@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,del,em,font,img,ins,small,strong,var,b,u, i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0;}
+
 body{ background:#FFFFFF; color:#333333; font-family:"宋体",Arial,Lucida,Verdana,Helvetica,sans-serif; font-size:12px; line-height:150%; }
 a:link, a:visited{ color:#333333; text-decoration:none; }
 
@@ -120,4 +120,10 @@ display: inline-block;
 
 
 
+}
+.mycls
+{
+	background:#F00;
+	width:200px;
+	height:400px;
 }

@@ -16,13 +16,15 @@
          <link rel="stylesheet" href="css/sp.css">
             <link rel="stylesheet" href="css/main.css">
               <link rel="stylesheet" href="css/font-awesome.min.css">
+                 <script src="js/jquery-2.2.3.min.js"></script>
+			  <script src="js/swiper.min.js"></script>
+           <script src="js/jquery.jqzoom.js"></script>
               <script src="js/base.js"></script>
-                 <script src="js/swiper.min.js"></script>
+                 
 
  
     
-         <script src="js/jquery-2.2.3.min.js"></script>
-           <script src="js/jquery.jqzoom.js"></script>
+     
              <script src="js/bootstrap.min.js"></script>
               
  <style>
@@ -409,10 +411,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="gwc"style="z-index: 2000;">
+		<div class="gwc"style="z-index: 222;">
 		  <div class="gwc_left">
-		     <a href="#" class="zan"><img src="images/zan.png"/><br /><span>关注</span></a>
-		     <a href="#" class="che"><img src="images/gwc.png"/><br /><span>购物车</span></a>
+		     <p href="#" class="zan"><img src="images/zan.png"/><br /><span>关注</span></p>
+		     <p href="#" class="che"><img src="images/gwc.png"/><br /><span>购物车</span></p>
 		  </div>
 		  <div class="gwc_right">
 		  	<div class="jr"><a href="#">加入购物车</a></div>
@@ -1096,32 +1098,19 @@
 			})
 		</script>
     <script>        
-        var mySwiper = new Swiper ('.swiper-container', {
-                   direction: 'horizontal',   
-                        loop: true,         
-                       speed: 300,         
-                    autoplay:2000,           
-autoplayDisableOnInteraction:false,           
-           mousewheelcontrol:true,
-                 pagination : '.swiper-pagination'   
-               })
-			   
-		$(function(){
-	    var $div_li =$("div.tab_menu ul li");
-	    $div_li.click(function(){
-			$(this).addClass("sele")            
-				   .siblings().removeClass("sele"); 
-            var index =  $div_li.index(this);  
-			$("div.tab_box > div")   	
-					.eq(index).show()  
-					.siblings().hide(); 
-		}).hover(function(){
-			$(this).addClass("hover");
-		},function(){
-			$(this).removeClass("hover");
-		})
-	})	   
-			   
+        var num=0;
+		    $(".zan").toggle(function(){
+		    	$(this).find("img").attr("src","images/yzan.png").end().find("span").text("已关注").css("color","#FF3300");
+		    },function(){
+		    	$(this).find("img").attr("src","images/zan.png").end().find("span").text("关注").css("color","#fff");
+		    }
+		    )
+			$(".cen_list span").click(function(){
+				num=$(this).index();
+				$(this).addClass("sel").siblings("span").removeClass("sel")
+				$(".gm_main .main_tab").eq(num).addClass("gm_main_o").siblings("div").removeClass("gm_main_o")
+			})
+		</script>
 			   
 			   
 			   

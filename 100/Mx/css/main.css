@@ -156,7 +156,6 @@ li{list-style-type:none;}
 }
 #weixin:hover{display: block}
 
-body{}
 
 .box{ width:1366px; margin:0 auto}
 
@@ -169,7 +168,7 @@ body{}
 
 
 .footer{ display:none}
-	.box{ width:1366px; }
+.navbar-nav .x{ display:none}
 
 
 
@@ -182,7 +181,8 @@ body{}
 .peijian { display:none}	
 #bottom{ display:none}	
 #bottom2{ display:none}	
-.box{ width:1366px;  }
+.text-right{ display:none}
+
 
 }
 
