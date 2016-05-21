@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>
+	<div id="wrap">
+		<div class="pctop visible-pc">
+			<div class="topnr clearfix">
+				<a href="#" class="logo fl dpblock"><img src="images/logo.png" alt=""></a>
+				<a href="#" class="dl fl dpblock">登录魅族账号</a>
+				<div class="topico clearfix fr">
+					<a href="#" class="sico icol dpinlineblock fl">回到首页</a>
+					<a href="#" class="sico icor dpinlineblock fl">注册</a>
+				</div>
+			</div>
+		</div>
+		<div class="main clearfix">
+			<div class="mainleft visible-pc fl"><a href="#" class="dpblock"><img src="images/may520-pc1.2.png" alt=""></a>
+			</div>
+			<div class="mainright fl">
+				<a href="index.html" class="visible-mob moblogo box-img-x"><img src="images/logo.png" alt=""></a>
+				<span class="dpblock visible-mob lotxt">魅族账号登录</span>
+				<div class="form">
+					<form action="" class="dh dpblock" name="dh">
+						<input type="text" class="dpblock inpzh inp" placeholder="会员名/邮箱/手机号" maxlength="30">
+						<p class="zhdl visible-pc">魅族账号（ 魅族社区账号 、魅族乐园账号）均可登录</p>
+						<input type="password" class="dpblock inpmi inp" placeholder="密码" maxlength="20">
+				<a href="index.html"><input type="submit"   value="登录" class="dpblock dlbtn"onclick='location.href("index.html")' </a>
+						<p class="wjm clearfix visible-pc"><a href="" class="forget dpblock fl">忘记密码</a><a href="#" class="zhuce dpblock fr">注册新账号</a></p>
+						<p class="another">
+							<span class="dpblock fl span"><span>其他登录方式</span><s class="dpblock dash visible-mob"></s></span>
+                             <span class="clearfix icobox dpblock">
+                             	<a href="#" class="dpblock fl qq"></a>
+							    <a href="#" class="dpblock fl zfb"></a>
+							    <a href="#" class="dpblock fl wb"></a>
+                             </span>
+							 
+							</p>
+							<span class="visible-mob clearfix dpinlineblock mobzc">
+								<a href="" class="mobforget">忘记密码</a><a href="#" class="mobzhuce">注册新账号</a>
+							</span>
+					</form>		
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	/*字体自适应*/
+		var wrapWidth = document.getElementById("wrap").clientWidth;
+		var body=document.getElementsByTagName("body")[0];
+		 body.style.fontSize="14px";
+            		window.onresize=function()
+            		{
+                         wrapWidth = document.getElementById("wrap").clientWidth;
+                         console.log(wrapWidth)
+                         if(wrapWidth<=470)
+            		  {
+            		      body.style.fontSize=14*wrapWidth/360+"px";
+            		  }
+            	    };
+         
+		
+	</script>
+</html>

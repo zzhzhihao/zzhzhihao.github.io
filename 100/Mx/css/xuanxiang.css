@@ -272,29 +272,6 @@ margin: 0.8em;
 }
 
 .gm a { line-height:40px;  font-weight: bold;  color:#CCC}
-.site-topbar{ width:100%; height:3em;    font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"}
-
-
-.site-topbar a{ 
-	line-height: 3em;
-	font-size:1.2rem;
-	    padding:0px 2.555em 0px 1.5em;
-	
-	
-	}
-	
-
- .site-topbar a:hover{
-    
-    color:#32a5e7;
-  
-  
-    display: inline-block;
-    text-decoration: none;
-	transition: color .2s linear;
-   }
-.top{ float:right}
-
 
 #bottom{
 	width:100%;

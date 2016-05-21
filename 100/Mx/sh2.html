@@ -474,8 +474,8 @@
 <a href="">魅族社区</a>
 <a href="">Flyme</a>
 <a href="" class="top">我的订单</a>
-<a href="" class="top">登陆</a>
-<a href="" class="top">注册</a>
+<a href="denglu.html" class="top">登陆</a>
+<a href="denglu.html" class="top">注册</a>
 
 
 </div>
@@ -1084,34 +1084,9 @@ autoplayDisableOnInteraction:false,           //用户操作后自动播放停�
                  pagination : '.swiper-pagination'   
                })
     </script>
-     <script>
-   
-		var num=0,htop;
-		$(document).scroll(function(){
-			htop=  $(".gm_main").get(0).getBoundingClientRect().top;
-			if(htop<0){
-				$(".cen_nav").addClass("fade")
-			}
-             if(htop>0)   {
-				$(".cen_nav").removeClass("fade")
-			}
-			
-		})
-		
-			$(".cen_list span").click(function(){
-				num=$(this).index();
-				$(this).addClass("sel").siblings("span").removeClass("sel")
-				$(".gm_main .main_tab").eq(num).addClass("gm_main_o").siblings("div").removeClass("gm_main_o")
-			})
-		</script>
+
     <script>        
-        var num=0;
-		    $("").toggle(function(){
-		    	$(this).find("img").attr("src","images/yzan.png").end().find("span").text("已关注").css("color","#FF3300");
-		    },function(){
-		    	$(this).find("img").attr("src","images/zan.png").end().find("span").text("关注").css("color","#fff");
-		    }
-		    )
+    
 			$(".cen_list span").click(function(){
 				num=$(this).index();
 				$(this).addClass("sel").siblings("span").removeClass("sel")
@@ -1127,8 +1102,7 @@ autoplayDisableOnInteraction:false,           //用户操作后自动播放停�
 			   
 			   
 			   
-			   
-    </script>
+
    
 
 
