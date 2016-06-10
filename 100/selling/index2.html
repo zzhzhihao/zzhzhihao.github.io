@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-<html>
-
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<script src="js/1.7.js"></script>
-	</head>
-
-	<body>
-		<div class="gm_page">
-			<div class="top_nav">
-			</div>
-			<div class="fade cen_nav">
-				<p class="cen_list"><span class="sel"><a href="#">商品介绍</a></span><span><a href="#">规格参数</a></span><span><a href="#">包装售后</a></span></p>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+     		 	<link rel="stylesheet" href="css/zhuti.css">
+     	<script  src="js/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+<div class="spxq" style="width:100%;position: relative;">
+        	<div class="gm_page">
+            <div style="height: 40px;"></div>
+			<div class="cen_nav">
+				<p class="cen_list"><span class="sel">商品介绍</span><span>规格参数</span><span>包装售后</span></p>
 			</div>
 			<div class="gm_main">
 				<div class="gm_main_o main_tab">
-					<a href="#" class="tab_img"><img src="images/a.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/b.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/c.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/cnc.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/d.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/e.jpg"/></a>
-					<a href="#" class="tab_img"><img src="images/pf.jpg"/></a>
+					<a href="#" class="tab_img"><img src="images/商品整体.jpg"/></a>
+		
 				</div>
 				<div class="main_tab">
 					<table class="gm_table">
@@ -305,33 +297,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="gwc">
-		  <div class="gwc_left">
-		     <a href="#" class="zan"><img src="images/zan.png"/><br /><span>关注</span></a>
-		     <a href="#" class="che"><img src="images/gwc.png"/><br /><span>购物车</span></a>
-		  </div>
-		  <div class="gwc_right">
-		  	<div class="jr"><a href="#">加入购物车</a></div>
-		  	<div class="lj"><a href="#">立即购买</a></div>
-		  </div>
-		</div>
-		
-		
-		
-		
-		<script>
-		var num=0;
-		    $(".zan").toggle(function(){
-		    	$(this).find("img").attr("src","images/yzan.png").end().find("span").text("已关注").css("color","#FF3300");
-		    },function(){
-		    	$(this).find("img").attr("src","images/zan.png").end().find("span").text("关注").css("color","#fff");
-		    }
-		    )
+        <script>
+		   
 			$(".cen_list span").click(function(){
-				num=$(this).index();
+			
 				$(this).addClass("sel").siblings("span").removeClass("sel")
 				$(".gm_main .main_tab").eq(num).addClass("gm_main_o").siblings("div").removeClass("gm_main_o")
 			})
 		</script>
-	</body>
+   
+</body>
 </html>
