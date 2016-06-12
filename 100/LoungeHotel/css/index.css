@@ -47,9 +47,9 @@ height:1143px
     background-color: white;
  
 }
-.nav a {
+.nav a{
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 20px;
 	font-family: Constantia;
 }
@@ -141,6 +141,8 @@ padding-top:25px;
 		 background:#000;
 		 width:140px;
 		 float:right;
+		 color:#FFF;
+		     text-indent: 5px;
 
 	
 
@@ -199,7 +201,9 @@ color: #5e6f6f;
 		height:65px;
 		margin-top:10px;
 		    background-color: #12110f;
-			border: 1px solid #2a2824;}
+			border: 1px solid #2a2824;
+			color:#FFF;
+			text-indent:5px;}
 			
 			
 			
@@ -366,7 +370,8 @@ padding-top:10px;
     border-radius: 1px;
     
     text-decoration: none;}
-	.bott:hover{ background:#666}
+	.bott:hover{ background:#666;
+	color:#FFF}
 	.wraleft{ width:290px; float:left;
 	margin-left:39px;
 	border-left:solid 1px #333333;
@@ -400,8 +405,10 @@ padding-top:10px;
 	background:#FFF;
 	text-align:center;
 	}
-	.press a{ line-height:29px;}
-	.press:hover{ background:#666}
+	.press a{ line-height:29px;
+	}
+	.press:hover{ background:#666
+	;color:#FFF}
 	.footer{
 		width:100%;
 		background:#000;

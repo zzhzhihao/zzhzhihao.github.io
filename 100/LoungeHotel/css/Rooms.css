@@ -275,6 +275,8 @@ padding-top:25px;
 		 background:#000;
 		 width:140px;
 		 float:right;
+		 color:#FFF;
+		 text-indent:5px;
 
 	
 
@@ -333,7 +335,9 @@ color: #5e6f6f;
 		height:65px;
 		margin-top:10px;
 		    background-color: #12110f;
-			border: 1px solid #2a2824;}
+			border: 1px solid #2a2824;
+			color:#FFF;
+			text-indent:5px;}
 			
 
 .nuli { background:#12110f;
@@ -376,14 +380,14 @@ margin-right:80px;
 margin-top:20px}
 .left  a{ color:#cfa21d;
 line-height:20px}
-
+.left a:hover{ text-decoration:none}
 
 .right{ float:left;
 margin-top:20px}
 
 .right a{ color:#cfa21d;
 line-height:20px}
-
+.right a:hover{ text-decoration:none}
 
 .mainl b{ margin-top:29px;
 line-height:0px}
@@ -491,7 +495,8 @@ color:#000;}
     text-decoration: underline;
 width:355px;
   
-	}	   
+	}	 
+	.boot  p:hover{ text-decoration:none}  
 	.boot  ul{ margin-top:12px;
 	height:15px;
 	width:434px;

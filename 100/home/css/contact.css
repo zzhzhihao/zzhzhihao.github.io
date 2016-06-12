@@ -97,8 +97,14 @@ margin-top:50px;}
 
 /*CONTACT*/
 .contact_tab{width: 100%;font-size: 15px;margin-top: 20px;}
-.con_inp{line-height: 28px;height: 28px;border: 0;background: #fff;margin: 5px 0;width: 300px;}
-.con_text{width: 545px;height:374px;border: 0;}
+.con_inp{line-height: 28px;
+height: 28px;border: 0;
+background: #fff
+;margin: 5px 0;width: 300px;
+    text-indent: 5px;}
+.con_text{width: 545px;height:374px;
+border: 0;
+    text-indent:5px;}
 .mes_td{vertical-align: top;}
 .con_til{padding-right: 10px;vertical-align: top;padding-top: 3px;}
 .contact_main{padding-top: 30px;}

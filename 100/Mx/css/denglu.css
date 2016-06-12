@@ -57,7 +57,8 @@ p{font-size: 1rem;}
 .mainright{width: 370px;margin-left: 100px;}
 .zhdl{font-size: 12px;color: #bbb;}
 .inp{width: 357px;height: 63px;border-radius: 5px;border:1px solid #bbb;margin: 20px 0;font-size: 16px;text-indent:10px;}
-.dlbtn{width: 359px;height: 60px;line-height: 60px;text-align:center;background: #0cbbef;border:0;color:#fff;font-size: 16px;margin-top: 50px;}
+.dlbtn{width: 359px;height: 60px;line-height: 60px;text-align:center;background: #0cbbef;border:0;color:#fff;font-size: 16px;margin-top: 50px;
+cursor:pointer;}
 .wjm a{line-height: 30px;color: #0cbbef;margin-top:15px;}
 .wjm{width: 359px}
 .another{height: 35px;width: 359px;line-height: 35px;margin-top: 20px;}
@@ -82,7 +83,12 @@ p{font-size: 1rem;}
     .inpzh{border:0;border-bottom: 1px solid #d7d7d7;border-radius: 1rem 1rem 0 0;}
     .inpmi{border-radius: 0 0 1rem 1rem;border:0;}
     
-    .dlbtn{width: 100%; border-radius: 2rem;height: 2.8rem;line-height: 2.8rem;}
+    .dlbtn{width: 100%; border-radius: 2rem;height: 2.8rem;line-height: 2.8rem;
+	cursor:pointer;
+	
+	
+	
+	}
     .qq{background-color:#71b2cd;}
     .zfb{background-color:#637882}
     .wb{background-color:#d3707b}

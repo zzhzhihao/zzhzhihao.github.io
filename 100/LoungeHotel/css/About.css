@@ -274,7 +274,8 @@ padding-top:25px;
 		 background:#000;
 		 width:140px;
 		 float:right;
-
+		 color:#FFF;
+		     text-indent: 5px
 	
 
 	
@@ -332,7 +333,9 @@ color: #5e6f6f;
 		height:65px;
 		margin-top:10px;
 		    background-color: #12110f;
-			border: 1px solid #2a2824;}
+			border: 1px solid #2a2824;
+			color: #FFF;
+			text-indent:5px;}
 			
 
 .nuli { background:#12110f;
