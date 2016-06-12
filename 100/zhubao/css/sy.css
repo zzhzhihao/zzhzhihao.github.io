@@ -101,10 +101,12 @@ a,img{border:0;}
 
 
 
-.index_focus{position:relative;width:100%;margin:0 auto;overflow:hidden;}
+.index_focus{position:relative; width:1366px;overflow:hidden;
+margin:0 auto}
 .index_focus .bd li{display:none;position:absolute;left:0;top:0;}
 .index_focus_post{z-index:10;}
-.index_focus .pic{display:block;}
+.index_focus .pic{display:block;
+margin: 0 auto }
 .index_focus .pic:hover{text-decoration:none;}
 .index_focus .slide_nav{position:absolute;left:43%;bottom:2%;}
 .index_focus .slide_nav a{cursor:pointer;float:left;font-size:28px;font-family:arial;color:#fff;padding:5px 10px;
@@ -119,7 +121,8 @@ margin-bottom:1em}
 .index_focus_info h3{font-size:36px;line-height:70px;font-family:\5fae\8f6f\96c5\9ed1, \u9ed1\u4f53, "Lucida Grande";display:none;}
 .index_focus_info .text{width:500px;line-height:24px;font-size:14px;word-wrap:break-word;overflow:hidden;display:none;}
 .bd img{ width:1366px;
-height:570px;}
+height:570px;
+margin:0 auto}
 
 
 
