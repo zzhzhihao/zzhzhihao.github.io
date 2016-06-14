@@ -16,6 +16,9 @@ li{ list-style: none; }
 	clear: both;
 }
 
+nav ul li:nth-of-type(7) a {
+    color: #ca4b00;
+}
 .bg{
 	position: fixed;
 	width: 100%;
@@ -101,9 +104,7 @@ nav ul li a{
 nav ul li a:hover{
 	color: #ca4b00;
 }
-nav ul li:nth-of-type(2) a{
-	color: #ca4b00;
-}
+
 .navline-left{
 	width: 1px;
 	height: 100%;
@@ -133,6 +134,7 @@ nav ul li:last-child{
 .main{ width: 980px;
 margin: 0 auto;
 background:rgba(255,255,255,.9);
+    margin-top: 20px
 }
 
 .main_l{ 
