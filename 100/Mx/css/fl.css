@@ -1,0 +1,240 @@
+*{ margin:0; padding:0}
+body{
+	font-size: 62.5%;
+	
+}
+.clearfix:before,
+.clearfix:after{
+	content: " "; 
+	display: table;
+	clear: both;
+}
+li{ list-style:none}
+a{ text-decoration:none;
+color:#000}
+.swiper-slide .slide_link{display: block;}
+.swiper-slide .slide_link .slide_img{width: 100%;vertical-align: middle;}
+.swiper-pagination-bullet{background: #fff;opacity: 0.8;width: 15px;height: 15px;border: 2px solid #fff;}
+.swiper-pagination-bullet-active{background:#FFF;opacity: 1;}
+
+
+
+@media screen and (max-width: 768px){
+	
+	.logo{ width:9.583333em;
+	float:left
+
+	}
+	.nav{
+		width:100%;
+	
+	border:solid 1px #CCCCCC;
+	padding-bottom:1em;
+	padding-top:1em;
+	padding-left:1em;
+	background:#FFF
+	}
+	.nav b{
+		font-weight:normal;
+		font-size:14px;
+		color:#21c1f1;
+		float:right;
+		padding-right:1em;
+		padding-top:0.5em;
+
+	}
+	
+	
+	.nav-box {
+    width: 100%;
+    table-layout: fixed;
+    display: table;
+    background-color: #fff;
+}
+.nav-item {
+    font-size: 0;
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    padding: .14rem 0 .16rem;
+}
+.nav-item div{ font-size:16px}
+.nav-item img{ width:25%}
+
+.gug img{ width:100%;
+float:left}
+.cell{ width:33%;
+float:left}
+.cell img{width:100%;}
+
+.hipost{ width:100%;
+padding-top:1em}
+.hd h1{ font-weight:normal;
+font-size:14px;
+font-family: sans-serif;
+padding-left:1em;
+line-height:152px;}
+.hd{ height:152px
+}
+.dh{height:152px}
+body{ background: #EFEFEF}
+.pic{ background:#FFf;}
+.sj{background:#FFf;}
+.sj_l{ width:50%;border-right:1px solid #CCC;
+border-bottom:solid 1px #CCCCCC;
+float:left;
+padding-top:0.6em}
+.pic_l{ width:33%;
+border-right:1px solid #CCC;
+border-bottom:solid 1px #CCCCCC;
+float:left;
+padding-top:0.6em}
+.pic_l img{ width:100%}
+.pic_r{ width:33%;
+
+border-bottom:solid 1px #CCCCCC;
+float:left;
+padding-top:0.6em}
+.pic_r img{ width:100%}
+.info {
+    padding: 0 0.27778rem 0.44444rem;
+    text-align: center;
+    line-height: 1.3;
+}
+.comment {
+    margin-bottom:0.6em;
+    color: #999;
+}
+
+
+.info h3 {
+   
+    overflow: hidden;
+    color: #333;
+    font-size: 13px;
+    font-weight: normal;
+	    margin-bottom: 0.6em;
+}
+.info .price .p-sale {
+    color: #ff5d5d;
+}
+
+.sale-sign {
+    position: absolute;z-index:999;
+	right:68%;
+    width: 28px;
+    height: 28px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+	
+}
+.sale{ position: absolute;z-index:999;
+	right:2%;
+    width: 28px;
+    height: 28px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%}
+.lol{ float:left;
+width:100%}
+.dh h3 {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 1em;
+    line-height: 152px;
+}
+
+.main{ float:left;
+width:100%;
+background:#FFF;
+}
+.main_l{
+    width:49%;
+    border-right: 1px solid #CCC;
+    border-bottom: solid 1px #CCCCCC;
+    float: left;
+    padding-top: 0.6em;
+}
+.main_l img{ width:100%;}
+
+
+
+
+.main_r{
+    width:49%;
+    
+    border-bottom: solid 1px #CCCCCC;
+    float: left;
+    padding-top: 0.6em;
+}
+.main_r img{ width:100%;}
+
+
+.att{ float: left;
+    width: 100%;}
+	.chs{height: 152px;
+}
+.chs h3{font-weight: normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 1em;
+    line-height: 152px}
+	
+	.footer{ float: left;
+    width: 100%;
+    background: #FFF;}
+	.foot img{ width:100%}
+	.foot{width: 49%;
+    border-right: 1px solid #CCC;
+    border-bottom: solid 1px #CCCCCC;
+    float: left;
+    padding-top: 0.6em;}
+	
+	.botom img{ width:100%}
+	
+	
+	.botom{width: 49%;
+   
+    border-bottom: solid 1px #CCCCCC;
+    float: left;
+    padding-top: 0.6em}
+	.item{ width:100%}
+.item img{ width:100%}
+
+} 
+
+
+
+
+@media screen and (min-width: 768px){
+	.swiper-container{ display:none}
+	.logo{ 
+display:none
+	}
+	.nav{
+		width:100%;
+	display:none;
+
+	}
+	.nav b{ display:none}
+	.fl{ display:none}
+	.gug{ display:none}
+	.hipost{ display:none}
+	.hd{ display:none}
+	
+	.item{ display:none}
+	.footer{ display:none}
+	.att{ display:none}
+	.main{ display:none}
+	.lol { display:none}
+	.pic{ display:none}
+	.card { display:none}
+	
+}  
+
