@@ -35,8 +35,7 @@ color:#000}
 	.catetory h3:{ font-size:24px}
 	.zzh{ font-size:24px;}
 	
-	
-	
+
 	}
 	
 	
@@ -44,25 +43,29 @@ color:#000}
 @media screen and (max-width: 768px){
 
 
-.header{
+.header{text-align:center;
 		width: 100%;
 		border-bottom: solid 1px #eee;
 		background:#FFF
 	}
-.fh { float: left; 
-padding: 30px; }
-.fh img{ width: 30px;
-height: 30px; }
 
 
-.tc{ 
 
-line-height: 93px;
-    font-size: 16px;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;}
+.top{
+
+float: left;
+padding:1.666666em;
+}
+.top img{ width:1.6666em;
+height:1.66666em;
+
+}
+
+.header .bt{
+	width:100px;
+	margin: 0 auto;
+	padding-top:1.66666em
+}
     .maincon{
     	width: 100%;
     	
