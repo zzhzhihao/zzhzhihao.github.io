@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数据类型</title>
+	<style type="text/css"></style>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		/*数据类型
+		number 数字类型 -1 0 1 -2.5 
+		srting 字符串类型  '字符串'  "在引号内的都是字符串类型" ''空字符为假 
+		Boolean  布尔类型 值为 true==1 真  false==假 0 -0
+		objcet 对象 document,window, [],{} null 
+		function 函数
+		undefined 未定义的
+		*/
+
+
+
+		//var box;//声明并没有赋值的为undefined  
+		//undefined 返回值为字符undefined  类型 undefined
+		//alert(box);
+
+		//null 假 '' NaN
+		//[] {} 1 真  '1' function(){}
+
+
+		/*var a = 0;
+		if (a) {
+			alert('真')
+
+		}else{
+			alert('假')
+		}*/
+		
+
+	// 数字初始化 var a =0 ; 字符串初始化 var a =''  布尔值 初始化 =true
+
+	var a ;
+	alert(typeof a)  //值为undefined  Undefined类型 返回字符串为undefined
+
+
+	var b =true;
+	alert(b)    //b是布尔类型，值是true/false   类型返回布尔
+
+
+	var c = '字符串';//c是String类型  返回值sting
+	alert(c)
+
+	var d = 250;
+	alert(typeof d)//d是Number  返回number
+
+	var json = {}//对象 json空对象
+	alert(typeof json)  //对象Object  返回的是字符串number
+
+
+	var a = 'aaa'
+	alert(isNaN(a))
+
+
+	</script>
+</body>
+</html>
