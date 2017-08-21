@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证反馈</title>
+	<style type="text/css">
+		
+
+	</style>
+</head>
+<body>
+	<form>
+	<input type="text" required id="text"/>
+	<input type="submit" />
+</form>
+<script>
+var txt = document.getElementById("text");
+txt.addEventListener("invalid",fn,false);
+function fn(){
+
+	alert(this.validity.valid)
+}
+//输入为空时返回false
+</script>
+
+</body>
+</html>

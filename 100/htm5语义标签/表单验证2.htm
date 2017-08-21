@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单验证2</title>
+	<style type="text/css">
+		
+
+	</style>
+</head>
+<body>
+<form>
+	<input type="text" required id="txt"/>
+	<input type="submit" />
+
+</form>
+
+	
+	<script type="text/javascript">
+		//https://zhidao.baidu.com/question/179603678650046444.html
+		var  txt = document.getElementById("txt");
+		txt.addEventListener("invalid",fn,false);
+
+		function fn(){
+
+			alert(this.validity.valueMissing)
+		}
+		//验证是否为空 空返回true ，valueMissing
+
+		
+
+	</script>
+</body>
+</html>

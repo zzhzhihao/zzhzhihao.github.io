@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>正则</title>
+	<style type="text/css">
+		
+
+
+	</style>
+</head>
+<body>
+	
+
+	<form>
+		<input type="text" id="txt" pattern="\d{1,6}" name="">
+		<input type="submit" name="">
+
+
+
+	</form>
+	<script type="text/javascript">
+			var otxt = document.getElementById("txt");
+			otxt.addEventListener('invalid',fn,false);
+
+			function fn(){
+				alert(this.validity.patternMismatch);
+			}	
+			//create
+			//valueMissing 当输入值为空是返回true
+			//typeMismatch 当输入值不符合时候返回true
+			//patternMismatch 用户输入的和正则规则不匹配
+			//pattern
+			//tooLong  当用户输入的长度超过maxlength
+			setCustomValidity()//自定义返回值
+			setCustomValidity('');
+			tooLong
+
+	</script>
+</body>
+</html>

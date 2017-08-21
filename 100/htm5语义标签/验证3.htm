@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证3</title>
+	<style type="text/css">
+		
+
+	</style>
+</head>
+<body>
+	<form>
+		
+
+		<input type="eamil"  id="text"/>
+	<input type="submit" />
+
+	</form>
+	<script type="text/javascript">
+		
+		var oText=document.getElementById("txt");
+	oText.addEventListener("invalid",fn,true);
+	function fn()
+	{
+		alert(this.validity.typeMismatch);
+		ev.preventDefault();
+	}
+	//cralea
+	//valueMissing检测是否是空的
+	//typeMismatch检测类型是否符合
+	//typeMismatch 属性要求 不符合要求返回true
+	//valueMassing 是否空值 返回true
+
+
+
+
+	</script>
+</body>
+</html>
