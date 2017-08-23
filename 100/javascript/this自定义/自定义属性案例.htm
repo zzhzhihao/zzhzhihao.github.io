@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自定义属性</title>
+	<style type="text/css">
+		*{
+
+			margin: 0;
+			padding: 0;
+
+		}
+	</style>
+</head>
+<body>
+<form method="" action="">
+		<input type="button" value="btn">
+	<input type="button" value="btn">
+	<input type="button" value="btn">
+
+</form>
+
+
+
+	<script type="text/javascript">
+	var aip = document.getElementsByTagName("input");
+	for(var i =0; i<aip.length;i++){
+		aip[i].off = true;
+		aip[i].onclick = function(){
+			if (i!=this.off) {
+			this.style.background= 'pink'
+	
+
+			}
+			if(this.off){
+		this.style.background= 'red'
+
+			this.off=false
+			}else{
+
+			this.style.background= 'pink'	
+
+			this.off= true
+			}
+		
+
+		}
+
+
+	}
+
+
+
+
+
+	</script>
+</body>
+</html>

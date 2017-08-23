@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>this</title>
+	<style type="text/css">
+		
+
+
+	</style>
+</head>
+<body>
+	<input type="button" value="btn">
+		<input type="button" value="btn">
+		<input type="button" value="btn">	
+	<script type="text/javascript">
+	var arr = ['a','b','c']
+	var ip = document.getElementsByTagName("input");
+	for(var i=0;i<ip.length;i++){
+		ip[i].n = 0;
+		ip[i].onclick = function(){
+
+			//alert(arr[i])
+			//alert([this.n])
+
+			
+			this.value = arr[this.n++]
+			alert(arr[this.n++])
+		}
+	}
+
+
+
+		
+
+
+
+
+	</script>
+	
+</body>
+</html>

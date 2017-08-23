@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>this应用</title>
+	<style>
+		
+
+
+	</style>
+
+</head>
+<body>
+<input type="button" name='' id="" value="按钮" >
+<input type="button" name='' id="" value="按钮" >
+<input type="button" name='' id="" value="按钮" >
+
+
+
+<script type="text/javascript">
+var oip = document.getElementsByTagName("input");
+	oip[0]
+	var obj = null;
+	for(var i = 0; i<oip.length;i++){
+
+		// oip[i].onclick =function(){
+		// 	this.style.background = 'pink'}
+
+ 
+			
+	oip[i].onclick =function(){
+		obj=this
+			window.fn();
+				//是window让他执行的
+	}
+	}
+
+		function fn(){
+			obj.style.background = 'pink'
+		}
+
+</script>
+	
+</body>
+</html>
